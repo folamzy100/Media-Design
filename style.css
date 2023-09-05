@@ -205,14 +205,12 @@ header li:hover{
     width: 80%;
 }
 .Beginner{
-    float: left;
     padding-left: 50px;
-    width: 50px;
-   
+    /* width: 20%; */
 }
 #Showing .container{
     background: #2c2a2ac0;
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 0px;
