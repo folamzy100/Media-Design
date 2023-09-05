@@ -1,0 +1,276 @@
+/*Showcase*/
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font:15px/1.5, Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Global*/
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+   
+}
+
+/* Header*/
+.navbar{
+    overflow: hidden;
+    position: fixed;
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+    background: rgba(4, 4, 4, 0.939);
+    color: #f4f4f4;
+   
+
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+    
+}
+
+header #branding{
+    float:left;
+}
+
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header #branding img{
+    border-radius: 70px;
+    max-width: 50px;
+    margin-top: 1px;
+}
+
+header li:hover{
+    font-weight: bold;
+    color:#a70b0b;
+}
+
+/*showcase*/
+#showcase.container{
+    width: 90%;
+}
+
+#showcase {
+    min-height:400px;
+    background: url('./Images/photo-1467232004584-a241de8bcf5d.jpg') no-repeat 0 ;
+    background-size:cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase .highlight {
+    color: #4285f1;
+}
+#showcase h1{
+   margin-top: 10px; 
+   font-size: 55px;
+   margin-bottom: 10px;
+   font-weight: bolder;
+}
+
+#showcase h3{
+    font-size: 30px;
+    color: #447bd8ed;
+    margin-top: 100px;
+    
+}
+
+#showcase p{
+    font-size:20px;
+    font-weight:lighter;
+}
+
+.button_2 {
+    height:48px;
+    background:#0b47a7;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    font-size: large;
+    border-radius: 20px;
+}
+
+/*boxes*/
+
+#boxes {
+    margin-top: 10px;
+}
+
+#boxes .box{
+    float:left;
+    width:30%;
+    padding: 5px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width:90px;
+    padding: 10px;
+}
+
+#newsletter {
+    padding:15px;
+    color: #ffffff;
+    background: #2474f4d0;
+
+}
+
+#newsletter h3{
+    float:left;
+    font-weight:bold ;
+}
+
+#newsletter form {
+    float:right;
+    margin-top: 15px;
+    
+}
+
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:50px;
+    width:350px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.button_1 {
+    height: 50px;
+    background:#000000;
+    color:#ffffff;
+    border-radius: 10px;
+    width: 200px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+/*showing*/
+
+#Showing {
+    background: #000000;
+}
+
+#Showing .Course1{
+    color: #ffffff;
+}
+
+.fleex{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+}
+.Beginner{
+    float: left;
+    padding-left: 50px;
+    width: 50px;
+   
+}
+#Showing .container{
+    background: #2c2a2ac0;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.Course {
+    font-size: 35px;
+    color: #4285f1;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Beginner img{
+    width:150px;
+    padding-top:15px;
+    padding-left: 50px;
+}
+
+.Beginnerdesign {
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.Beginnerlogo{
+    float: right;
+}
+
+
+
+.Beginnerdesign h5{
+    color: #0b47a7;
+    padding-left: 20px;
+    font-size: large;
+    font-weight:normal;
+    padding-top: 5px;
+    
+}
+
+.Beginnerdesign p{
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Getit {
+    color: #4285f1;
+    padding-left: 20px;
+    font-size:18px;
+}
+
+.Beginnerjs img{
+    width:50px;
+    padding-top: 30px;
+}
